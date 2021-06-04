@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grasim-Chemical-Division</title>
+
+    <!-- Linking StylesSheet -->
+    <link rel="stylesheet" href="./css/style.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="form-container">
+        <form action="" class="form">
+            <div class="form-field">
+                <label for="companyName" class="form-label">Firm/Company Name <span class="require">*</span></label>
+                <input id="companyName" type="text" class="form-input">
+            </div>
+            
+            <div class="form-field">
+                <label for="pan" class="form-label">PAN <span class="require">*</span></label>
+                <input id="pan" type="text" class="form-input">
+            </div>
+            
+            <div class="form-field">
+                <label for="aadhaar" class="form-label">Aadhaar Card Number,if any</label>
+                <input id="aadhaar" type="text" class="form-input">
+            </div>
+            
+            <div class="form-field">
+                <label for="turnOver" class="form-label">Is your turnover during the previous Financial Year 2020-21 is more than INR 10,00,00.000 ? <span class="require">*</span></label>
+                <div class="form-input" style="border: none;">
+                    <input id="turnOverYes" type="radio" name="turnOver" value="Yes">
+                    <label id="turnOverYes">Yes</label><br>
+                    <br>
+                    <input id="turnOverNo" type="radio" name="turnOver" value="No">
+                    <label id="turnOverNo">No</label>
+                </div>
+
+                <!-- <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label><br>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label><br> -->
+            </div>
+            
+            <div class="form-field">
+                <label for="acknowledge1" class="form-label">Acknowledgement Number and Date of IT return for FY 2018-19 (AY 2019-20) ? <span class="require">*</span></label>
+                <input id="acknowledge1" type="text" class="form-input">
+            </div>
+            
+            <div class="form-field">
+                <label for="acknowledge2" class="form-label">Acknowledgement Number and Date of IT return for FY 2019-20 (AY 2020-21) ? <span class="require">*</span></label>
+                <input id="acknowledge2" type="text" class="form-input">
+            </div>
+
+            <button type="submit" class="form-submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
